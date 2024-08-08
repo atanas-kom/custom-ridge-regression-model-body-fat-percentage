@@ -90,7 +90,7 @@ follows the normal distribution. Because of this we choose to standardize the da
 column(Fig. 14 ).
 ![image](images/13.png)
 Fig. 14
-
+.
 ![image](images/14.png)
 Fig. 15
 We check that the standardization has been applied in Fig. 15.
@@ -107,9 +107,9 @@ regression model and split the data in 5 with KFold. We also set shuffle=True in
 a better estimate from varying the data in the folds(Fin. 17 ).
 ![image](images/16.png)
 Fig. 17
+
 *Note: because of the shuffle, best alpha(λ) varies with the varying training/testing set but
 primarily stays in the range 1 to 5.
-
 
 Next, we perform cross validation. For each alpha we train a Ridge regression model with
 that alpha, and then test it. The 5 (from 5 folds) tests are then scored and their mean saved
@@ -124,7 +124,7 @@ alpha(λ)(Fig. 18 ). We can confirm that by looking atthe graph on Fig. 19. λ =
 highest score of 0.6933...
 ![image](images/18.png)
 Fig. 18
-
+.
 ![image](images/19.png)
 Fig. 19
 
@@ -134,6 +134,7 @@ we test that on the non-standardized data(Fig. 20 )and then plot the predictions
 test values(Fig. 21 ).
 ![image](images/20.png)
 Fig. 20
+
 ![image](images/21.png)
 Fig. 21
 
