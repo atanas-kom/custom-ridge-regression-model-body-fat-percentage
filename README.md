@@ -1,3 +1,4 @@
+## Overview
 Using Ridge regression with cross validation as a method of predicting body fat percentage in men from measurements taken from only a scale and tape measure.
 
 ## 1. Loading the data
