@@ -116,26 +116,27 @@ that alpha, and then test it. The 5 (from 5 folds) tests are then scored and the
 alongside the corresponding alpha(λ) we used. Finally, we find the highest mean score and
 its corresponding alpha and display them(Fig. 17 ).That is how we determine the best
 complexity parameter.
-![image](images/17.png)
+![image](images/18.png)
 Fig. 17 Code template from (Bronshtein, 2022)
 
 We can also show the optimal alpha(λ) by graphing the scores and their corresponding
 alpha(λ)(Fig. 18 ). We can confirm that by looking atthe graph on Fig. 19. λ = 1.5 has the
 highest score of 0.6933...
-![image](images/18.png)
-Fig. 18
-.
 ![image](images/19.png)
+Fig. 18
+
+.
+![image](images/20.png)
 Fig. 19
 
 Now that we have chosen the best hyper-parameter λ, we apply the model for regression
 purposes. In order to confirm that the model we have trained can predict Percent body fat,
 we test that on the non-standardized data(Fig. 20 )and then plot the predictions against the
 test values(Fig. 21 ).
-![image](images/20.png)
+![image](images/21.png)
 Fig. 20
 
-![image](images/21.png)
+![image](images/22.png)
 Fig. 21
 
 In conclusion, using Ridge regression with cross validation is a viable method of predicting
