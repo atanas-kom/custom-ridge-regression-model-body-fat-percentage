@@ -33,6 +33,7 @@ Fig. 4
 
 From all 17 graphs and by looking at the csv file, we identify 3 outliers in the data that need
 to be removed(Fig. 5 , Fig. 6 ).
+
 ![image](images/4.png)
 Fig. 5
 
@@ -88,11 +89,13 @@ Feature scaling is an important part of preprocessing. The data provided in the 
 a wide range of measurements in different scales such as inches, cm, lbs, etc. Our data also
 follows the normal distribution. Because of this we choose to standardize the data in each
 column(Fig. 14 ).
+
 ![image](images/13.png)
 Fig. 14
-.
+
 ![image](images/14.png)
 Fig. 15
+
 We check that the standardization has been applied in Fig. 15.
 
 ## 3. Performing cross validation and ridge regression
